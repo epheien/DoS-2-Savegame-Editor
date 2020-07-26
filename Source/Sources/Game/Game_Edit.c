@@ -5,11 +5,11 @@
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "Application.h"
 #include "GameEdit.h"
@@ -33,11 +33,11 @@ static GAMEEDITPAGE	Pages[] = {
 				};
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Création de la boîte de dialogue					  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ CrÃ©ation de la boÃ®te de dialogue					  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 {
@@ -85,7 +85,7 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 		goto Done;
 		}
 
-	//--- Copie les propriétés de l'objet ---
+	//--- Copie les propriÃ©tÃ©s de l'objet ---
 
 	pItemContext->pszName = xml_GetThisAttrValue(pItem->pxaName);
 	pItemContext->bIsGenerated = xml_IsTrue(pItem->pxaIsGenerated);
@@ -100,7 +100,7 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 	if (!pItemContext->uFilter) pItemContext->uFilter = FILTER_ALL;
 	else pItemContext->uFilter |= (FILTER_ALL_TYPES);
 
-	//--- Retire la quantité pour les objets qui ne s'empilent pas ---
+	//--- Retire la quantitÃ© pour les objets qui ne s'empilent pas ---
 
 	if (pItemContext->pszName)
 		{
@@ -111,15 +111,15 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 		else if (Game_CompareStrings(L"CONT_",pItemContext->pszName,uLen,CMP_TYPE_BEGIN)) pItemContext->iAmount = pItemContext->iAmountOld = -1;
 		}
 
-	//--- Création des pages ---
+	//--- CrÃ©ation des pages ---
 
-	if (uPageID == 0) // Sélection automatique de la page la plus appropriée
+	if (uPageID == 0) // SÃ©lection automatique de la page la plus appropriÃ©e
 		{
 		if (pItemContext->iAmount > 0) uPageID = GAME_PAGE_AMOUNT;
 		else uPageID = GAME_PAGE_NAME;
 		}
 
-	for (i = 0, iNumPages = 0; Pages[i].uPageID != 0; i++) // Création des pages
+	for (i = 0, iNumPages = 0; Pages[i].uPageID != 0; i++) // CrÃ©ation des pages
 		{
 		GAMEEDITPAGECONTEXT*	ctx;
 
@@ -190,7 +190,7 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 			}
 		}
 
-	//--- Affichage de la boîte de dialogue ---
+	//--- Affichage de la boÃ®te de dialogue ---
 
 	psh->dwSize = sizeof(PROPSHEETHEADER);
 	psh->dwFlags = PSH_PROPSHEETPAGE|PSH_USEICONID|PSH_NOAPPLYNOW|PSH_USEPSTARTPAGE|PSH_NOCONTEXTHELP;
@@ -204,7 +204,7 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 
 	iResult = PropertySheet(psh);
 
-	//--- Application des résultats ---
+	//--- Application des rÃ©sultats ---
 
 	if (iResult)
 		{
@@ -259,7 +259,7 @@ void Game_Edit(DOS2ITEM *pItem, UINT uPageID)
 		InvalidateRect(App.Game.Layout.hwndInventory,NULL,FALSE);
 		}
 
-	//--- Terminé ! ---
+	//--- TerminÃ© ! ---
 
 Done:	if (pItemContext)
 		{
@@ -285,11 +285,11 @@ Done:	if (pItemContext)
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Pages								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Pages								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 BOOL CALLBACK Game_EditProc(HWND hDlg, UINT uMsgId, WPARAM wParam, LPARAM lParam)
 {
@@ -571,7 +571,7 @@ BOOL CALLBACK Game_EditProc(HWND hDlg, UINT uMsgId, WPARAM wParam, LPARAM lParam
 }
 
 
-// «»»» Initialisation d'une page «««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Initialisation d'une page Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL Game_EditInit(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 {
@@ -696,7 +696,7 @@ BOOL Game_EditInit(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 }
 
 
-// «»»» Activation d'une page «««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Activation d'une page Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditActivate(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 {
@@ -705,7 +705,7 @@ int Game_EditActivate(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 }
 
 
-// «»»» Application des changements «««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Application des changements Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditApply(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 {
@@ -764,7 +764,7 @@ int Game_EditApply(HWND hDlg, GAMEEDITPAGECONTEXT *ctx)
 }
 
 
-// «»»» Affichage en cas de liste vide ««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage en cas de liste vide Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditShowList(HWND hDlg, NODE *pRoot)
 {
@@ -783,13 +783,13 @@ void Game_EditShowList(HWND hDlg, NODE *pRoot)
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Nom et Description						  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Nom et Description						  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Copie d'un texte ««««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie d'un texte Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL Game_EditNameCopy(XML_ATTR *pxaName, WCHAR **pszName)
 {
@@ -810,7 +810,7 @@ BOOL Game_EditNameCopy(XML_ATTR *pxaName, WCHAR **pszName)
 }
 
 
-// «»»» Application d'un texte ««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Application d'un texte Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL Game_EditNameSet(DOS2ITEM *pItem, XML_ATTR **pxaNamePtr, WCHAR *pszName, WCHAR *pszAttrName)
 {
@@ -843,7 +843,7 @@ BOOL Game_EditNameSet(DOS2ITEM *pItem, XML_ATTR **pxaNamePtr, WCHAR *pszName, WC
 		}
 	else return(TRUE);
 
-	//--- Recréation des structures ---
+	//--- RecrÃ©ation des structures ---
 
 	pxnParent = xml_GetNode((XML_NODE *)pItem->pxnRoot->children.next,L"children",NULL,NULL);
 	if (pxnParent)
@@ -874,13 +874,13 @@ BOOL Game_EditNameSet(DOS2ITEM *pItem, XML_ATTR **pxaNamePtr, WCHAR *pszName, WC
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Augmentations (Boosters)						  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Augmentations (Boosters)						  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Sélection d'une augmentation ««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» SÃ©lection d'une augmentation Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBoostersSelected(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -897,7 +897,7 @@ void Game_EditBoostersSelected(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 }
 
 
-// «»»» Affichage des augmentations «««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage des augmentations Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBoostersDraw(DRAWITEMSTRUCT *pDraw)
 {
@@ -938,7 +938,7 @@ void Game_EditBoostersDraw(DRAWITEMSTRUCT *pDraw)
 }
 
 
-// «»»» Copie les augmentations de l'objet ««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie les augmentations de l'objet Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditBoostersCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnGeneration)
 {
@@ -954,18 +954,18 @@ int Game_EditBoostersCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnGenera
 
 	uLastError = 0;
 	pxnChildren = xml_GetNode((XML_NODE *)pxnGeneration->children.next,L"children",NULL,NULL);
-	if (!pxnChildren) return(1); // N'a aucune augmentation particulière (children/node[id="Booster"]/etc. manquant - Cas possible)
+	if (!pxnChildren) return(1); // N'a aucune augmentation particuliÃ¨re (children/node[id="Booster"]/etc. manquant - Cas possible)
 
 	for (pxnBooster = (XML_NODE *)pxnChildren->children.next; pxnBooster != NULL; pxnBooster = (XML_NODE *)pxnBooster->node.next)
 		{
-		//--- Vérifie qu'il s'agit bien de <node id="Booster> ---
+		//--- VÃ©rifie qu'il s'agit bien de <node id="Booster> ---
 		pxa = xml_GetAttr(pxnBooster,szXMLid);
 		if (!pxa || !pxa->value || wcscmp(szXMLBoost,pxa->value))
 			{
 			uLastError = TEXT_ERR_GENBOOSTUNKNOWNNODE;
 			goto Done;
 			}
-		//--- Vérifie qu'il y a bien un attribut et un seul ---
+		//--- VÃ©rifie qu'il y a bien un attribut et un seul ---
 		if (!pxnBooster->children.next)
 			{
 			uLastError = TEXT_ERR_GENBOOSTEMPTY;
@@ -976,7 +976,7 @@ int Game_EditBoostersCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnGenera
 			uLastError = TEXT_ERR_GENBOOSTTOOMANYATTR;
 			goto Done;
 			}
-		//--- Vérifie qu'il s'agit bien de <attribute id="Object" type="22"> ---
+		//--- VÃ©rifie qu'il s'agit bien de <attribute id="Object" type="22"> ---
 		pxnAttribute = (XML_NODE *)pxnBooster->children.next;
 		if (wcscmp(szXMLattribute,pxnAttribute->name))
 			{
@@ -1021,7 +1021,7 @@ int Game_EditBoostersCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnGenera
 		wcscpy(pEditBooster->pszId,pxa->value);
 		// Copie le nom
 		Locale_QueryID(pItemContext->pLocale->db,szDataBaseBoosters,pEditBooster->pszId,NULL,&pEditBooster->pszName,1);
-		// Ajoute à la liste
+		// Ajoute Ã  la liste
 		List_AddEntry((NODE *)pEditBooster,&pItemContext->nodeBoosters);
 		}
 
@@ -1036,7 +1036,7 @@ Done:	if (uLastError)
 }
 
 
-// «»»» Recréation des augmentations de l'objet «««««««««««««««««««««««««»
+// Â«Â»Â»Â» RecrÃ©ation des augmentations de l'objet Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditBoostersRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_ATTR *pxaIsGenerated, XML_NODE *pxnGeneration)
 {
@@ -1081,7 +1081,7 @@ int Game_EditBoostersRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_ATTR *pxaIsG
 }
 
 
-// «»»» Libère les structures utilisées par les augmentations «««««««««««»
+// Â«Â»Â»Â» LibÃ¨re les structures utilisÃ©es par les augmentations Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBoostersRelease(NODE *pRoot)
 {
@@ -1098,7 +1098,7 @@ void Game_EditBoostersRelease(NODE *pRoot)
 }
 
 
-// «»»» Ajout / Modification d'une augmentation «««««««««««««««««««««««««»
+// Â«Â»Â»Â» Ajout / Modification d'une augmentation Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1111,7 +1111,7 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 	pszBooster = NULL;
 	uSelected = -1;
 
-	//--- [Modification] Retrouve la sélection ---
+	//--- [Modification] Retrouve la sÃ©lection ---
 
 	if (!bAdd)
 		{
@@ -1122,12 +1122,12 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 		pszBooster = pEditBooster->pszId;
 		}
 
-	//--- Sélectionne l'augmentation ---
+	//--- SÃ©lectionne l'augmentation ---
 
 	pszResult = Game_EditValue(hDlg,pszBooster,DATA_TYPE_BOOSTERS,pItemContext->pszName,&pItemContext->uFilter);
 	if (!pszResult) return;
 
-	//--- [Ajout] Création d'une nouvelle augmentation ---
+	//--- [Ajout] CrÃ©ation d'une nouvelle augmentation ---
 
 	if (!pEditBooster)
 		{
@@ -1141,7 +1141,7 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 		List_AddEntry((NODE *)pEditBooster,&pItemContext->nodeBoosters);
 		}
 
-	//--- [Modification] Mise à jour de l'entrée ---
+	//--- [Modification] Mise Ã  jour de l'entrÃ©e ---
 
 	if (!bAdd)
 		{
@@ -1150,12 +1150,12 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 		pEditBooster->pszId = pszResult;
 		}
 
-	//--- Mise à jour de la localisation ---
+	//--- Mise Ã  jour de la localisation ---
 
 	if (pEditBooster->pszName) HeapFree(App.hHeap,0,pEditBooster->pszName);
 	Locale_QueryID(pItemContext->pLocale->db,szDataBaseBoosters,pEditBooster->pszId,NULL,&pEditBooster->pszName,1);
 
-	//--- [Modification] Réinitialise les données de l'entrée ---
+	//--- [Modification] RÃ©initialise les donnÃ©es de l'entrÃ©e ---
 
 	if (!bAdd)
 		{
@@ -1164,7 +1164,7 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 		return;
 		}
 
-	//--- [Ajout] Ajoute une nouvelle entrée ---
+	//--- [Ajout] Ajoute une nouvelle entrÃ©e ---
 
 	uSelected = SendDlgItemMessage(hDlg,200,LB_INSERTSTRING,(WPARAM)uSelected,(LPARAM)pEditBooster);
 	if (uSelected == LB_ERR || uSelected == LB_ERRSPACE)
@@ -1182,7 +1182,7 @@ void Game_EditBoostersChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemCon
 }
 
 
-// «»»» Retrait d'une augmentation ««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Retrait d'une augmentation Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBoostersRemove(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1205,13 +1205,13 @@ void Game_EditBoostersRemove(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Bonus permanent							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Bonus permanent							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Sélection d'un bonus ««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» SÃ©lection d'un bonus Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBonusSelected(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1228,7 +1228,7 @@ void Game_EditBonusSelected(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 }
 
 
-// «»»» Affichage d'un bonus ««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage d'un bonus Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBonusDraw(DRAWITEMSTRUCT *pDraw)
 {
@@ -1264,7 +1264,7 @@ void Game_EditBonusDraw(DRAWITEMSTRUCT *pDraw)
 }
 
 
-// «»»» Copie les bonus d'un objet ««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie les bonus d'un objet Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus)
 {
@@ -1288,7 +1288,7 @@ int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus
 
 	for (pxnBonus = (XML_NODE *)pxnPermBonus->children.next; pxnBonus != NULL; pxnBonus = (XML_NODE *)pxnBonus->node.next)
 		{
-		//--- Analyse le noeud enfant pour trouver les compétences (Art de la guerre, etc.) ---
+		//--- Analyse le noeud enfant pour trouver les compÃ©tences (Art de la guerre, etc.) ---
 
 		if (!wcscmp(pxnBonus->name,L"children"))
 			{
@@ -1303,7 +1303,7 @@ int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus
 
 		if (wcscmp(pxnBonus->name,szXMLattribute)) continue;
 
-		//--- Récupère les informations de la balise <attribute> ---
+		//--- RÃ©cupÃ¨re les informations de la balise <attribute> ---
 
 		pszId = xml_GetAttrValue(pxnBonus,szXMLid);
 		pszValue = xml_GetAttrValue(pxnBonus,szXMLvalue);
@@ -1315,12 +1315,12 @@ int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus
 			break;
 			}
 
-		//--- Retrouve le bonus associé, ignore la balise si le bonus est inconnu ---
+		//--- Retrouve le bonus associÃ©, ignore la balise si le bonus est inconnu ---
 
 		pBonus = Game_BonusGetFromID(pszId);
 		if (!pBonus) continue;
 
-		//--- Sépare les compétences en plusieurs structures ---
+		//--- SÃ©pare les compÃ©tences en plusieurs structures ---
 
 		if (pBonus->uFlags&BONUS_FLAG_SKILL)
 			{
@@ -1351,7 +1351,7 @@ int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus
 			if (!wcslen(pszValue)) continue;
 			}
 
-		//--- Création de la structure ---
+		//--- CrÃ©ation de la structure ---
 
 		iResult = Game_EditBonusCopyCreate(pItemContext,pxnPermBonus,pszId,pszValue,pBonus,pLocale);
 		if (iResult == 0 || iResult == -1) break;
@@ -1368,7 +1368,7 @@ int Game_EditBonusCopy(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus
 	return(iResult);
 }
 
-//--- Création de la structure ---
+//--- CrÃ©ation de la structure ---
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wmaybe-uninitialized"
@@ -1399,7 +1399,7 @@ int Game_EditBonusCopyCreate(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPer
 		}
 	wcscpy(pEditBonus->pszId,pszId);
 
-	//--- Copie les paramètres de reflexion
+	//--- Copie les paramÃ¨tres de reflexion
 	if (pBonus->uFlags&BONUS_FLAG_REFLECTION)
 		{
 		XML_NODE*	pxn;
@@ -1425,7 +1425,7 @@ int Game_EditBonusCopyCreate(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPer
 			}
 		pEditBonus->reflection.bIsSet = wcscmp(pszValue,L"True")?FALSE:TRUE;
 		}
-	//--- Copie le nom de la compétence
+	//--- Copie le nom de la compÃ©tence
 	else if (pBonus->uFlags&BONUS_FLAG_SKILL)
 		{
 		pszExtra1 = HeapAlloc(App.hHeap,0,wcslen(pszValue)*sizeof(WCHAR)+sizeof(WCHAR));
@@ -1450,7 +1450,7 @@ int Game_EditBonusCopyCreate(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPer
 		if (pLocale) Locale_QueryID(pLocale->db,szDataBaseColors,pszExtra1,NULL,&pszLocale,1);
 		}
 
-	//--- Attribue les paramètres
+	//--- Attribue les paramÃ¨tres
 	if (pBonus->uFlags&BONUS_FLAG_INT) Game_BonusSetVal(pEditBonus,BONUS_FLAG_INT,pszValue);
 	else if (pBonus->uFlags&BONUS_FLAG_UINT) Game_BonusSetVal(pEditBonus,BONUS_FLAG_UINT,pszValue);
 	else if (pBonus->uFlags&BONUS_FLAG_FLOAT) Game_BonusSetVal(pEditBonus,BONUS_FLAG_FLOAT,pszValue);
@@ -1463,7 +1463,7 @@ int Game_EditBonusCopyCreate(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPer
 #pragma GCC diagnostic pop
 
 
-// «»»» Recréation des bonus d'un objet «««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» RecrÃ©ation des bonus d'un objet Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditBonusRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBonus)
 {
@@ -1480,7 +1480,7 @@ int Game_EditBonusRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBo
 
 	if (!pxnPermBonus) return(1);
 
-	//--- Récupère le pointeur sur les compétences (abilities) ---
+	//--- RÃ©cupÃ¨re le pointeur sur les compÃ©tences (abilities) ---
 
 	pxnAttributes = xml_GetNode((XML_NODE *)pxnPermBonus->children.next,L"children",NULL,NULL);
 	if (!pxnAttributes)
@@ -1499,7 +1499,7 @@ int Game_EditBonusRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBo
 
 	Game_EditBonusRebuildCleanup(pItemContext,pxnPermBonus);
 
-	//--- Ajoute les bonus sélectionnés dans la structure XML ---
+	//--- Ajoute les bonus sÃ©lectionnÃ©s dans la structure XML ---
 
 	pReflection = NULL;
 	pLastInserted = &pxnPermBonus->children;
@@ -1592,7 +1592,7 @@ int Game_EditBonusRebuild(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *pxnPermBo
 	return(1);
 }
 
-//--- Retrouve toutes les compétences ---
+//--- Retrouve toutes les compÃ©tences ---
 
 //!\ Returns the length (in bytes) of the buffer NOT including the null terminating character
 
@@ -1658,7 +1658,7 @@ void Game_EditBonusRebuildCleanup(GAMEEDITITEMCONTEXT *pItemContext, XML_NODE *p
 }
 
 
-// «»»» Ajout / Modification d'un bonus «««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Ajout / Modification d'un bonus Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1669,7 +1669,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 	pEditBonus = NULL;
 	uSelected = -1;
 
-	//--- [Modification] Retrouve la sélection
+	//--- [Modification] Retrouve la sÃ©lection
 	if (!bAdd)
 		{
 		uSelected = SendDlgItemMessage(hDlg,200,LB_GETCURSEL,0,0);
@@ -1678,7 +1678,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 		if (pEditBonus == (GAMEEDITBONUS *)LB_ERR) return;
 		}
 
-	//--- Sélectionne le nouveau bonus ---
+	//--- SÃ©lectionne le nouveau bonus ---
 
 	pEditBonusNew = Game_Bonus(hDlg,pEditBonus,pItemContext->pszName);
 	if (!pEditBonusNew) return;
@@ -1687,7 +1687,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 
 	if (!pEditBonus) List_AddEntry((NODE *)pEditBonusNew,&pItemContext->nodeBonuses);
 
-	//--- [Modification] Insère le nouveau bonus dans la liste ---
+	//--- [Modification] InsÃ¨re le nouveau bonus dans la liste ---
 
 	if (!bAdd)
 		{
@@ -1695,7 +1695,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 		List_InsertEntry((NODE *)pEditBonusNew,(NODE *)pEditBonus,FALSE);
 		}
 
-	//--- [Modification] Supprime l'ancien bonus et met à jour la liste ---
+	//--- [Modification] Supprime l'ancien bonus et met Ã  jour la liste ---
 
 	if (!bAdd)
 		{
@@ -1706,7 +1706,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 		return;
 		}
 
-	//--- [Ajout] Ajoute une nouvelle entrée dans la liste ---
+	//--- [Ajout] Ajoute une nouvelle entrÃ©e dans la liste ---
 
 	uSelected = SendDlgItemMessage(hDlg,200,LB_INSERTSTRING,(WPARAM)uSelected,(LPARAM)pEditBonusNew);
 	if (uSelected == LB_ERR || uSelected == LB_ERRSPACE)
@@ -1722,7 +1722,7 @@ void Game_EditBonusChange(HWND hDlg, BOOL bAdd, GAMEEDITITEMCONTEXT *pItemContex
 }
 
 
-// «»»» Retrait d'un bonus ««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Retrait d'un bonus Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditBonusRemove(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1743,13 +1743,13 @@ void Game_EditBonusRemove(HWND hDlg, GAMEEDITITEMCONTEXT *pItemContext)
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Runes								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Runes								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Copie les runes «««««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie les runes Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_EditRunesCopy(DOS2ITEM *dosItem, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1770,7 +1770,7 @@ int Game_EditRunesCopy(DOS2ITEM *dosItem, GAMEEDITITEMCONTEXT *pItemContext)
 }
 
 
-// «»»» Libère les données utilisées par une rune «««««««««««««««««««««««»
+// Â«Â»Â»Â» LibÃ¨re les donnÃ©es utilisÃ©es par une rune Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditRunesRelease(GAMEEDITRUNE *pEditRune)
 {
@@ -1792,7 +1792,7 @@ void Game_EditRunesRelease(GAMEEDITRUNE *pEditRune)
 }
 
 
-// «»»» Affichage du nom d'une rune «««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage du nom d'une rune Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditRunesDrawName(GAMEEDITITEMCONTEXT *pItemContext, UINT uRuneId, DRAWITEMSTRUCT *pDraw)
 {
@@ -1828,7 +1828,7 @@ void Game_EditRunesDrawName(GAMEEDITITEMCONTEXT *pItemContext, UINT uRuneId, DRA
 }
 
 
-// «»»» Affichage des bonus d'une rune ««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage des bonus d'une rune Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditRunesDrawBonus(GAMEEDITITEMCONTEXT *pItemContext, UINT uCtrlId, DRAWITEMSTRUCT *pDraw)
 {
@@ -1908,7 +1908,7 @@ void Game_EditRunesDrawBonus(GAMEEDITITEMCONTEXT *pItemContext, UINT uCtrlId, DR
 }
 
 
-// «»»» Modification d'une rune «««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Modification d'une rune Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditRunesChange(HWND hDlg, UINT uIndex, GAMEEDITITEMCONTEXT *pItemContext)
 {
@@ -1930,7 +1930,7 @@ void Game_EditRunesChange(HWND hDlg, UINT uIndex, GAMEEDITITEMCONTEXT *pItemCont
 }
 
 
-// «»»» Retrait d'une rune ««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Retrait d'une rune Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_EditRunesRemove(HWND hDlg, UINT uIndex, GAMEEDITITEMCONTEXT *pItemContext)
 {

@@ -5,11 +5,11 @@
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "Application.h"
 #include "Files.h"
@@ -21,13 +21,13 @@
 extern APPLICATION		App;
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Chargement							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Chargement							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Conversion d'un fichier LSF en XML ««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Conversion d'un fichier LSF en XML Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL lsf_Unpack(HWND hWnd, LSFILE *pFile, DWORD dwMode)
 {
@@ -45,7 +45,7 @@ BOOL lsf_Unpack(HWND hWnd, LSFILE *pFile, DWORD dwMode)
 		goto Done;
 		}
 
-	//--- Vérifie qu'il s'agit bien d'un fichier LSF ---
+	//--- VÃ©rifie qu'il s'agit bien d'un fichier LSF ---
 
 	if (!(pFile->dwType&LS_TYPE_LSF))
 		{
@@ -70,7 +70,7 @@ BOOL lsf_Unpack(HWND hWnd, LSFILE *pFile, DWORD dwMode)
 	SetLastError(ERROR_SUCCESS);
 	bIsDone = TRUE;
 
-	//--- Terminé ! ---
+	//--- TerminÃ© ! ---
 
 Done:	if (GetLastError() != ERROR_SUCCESS && !(dwMode&LS_LOAD_QUIET)) Request_PrintErrorEx(hWnd,Locale_GetText(TEXT_ERR_LSF_LOAD),NULL,MB_ICONHAND,pFile->pszName);
 
@@ -89,7 +89,7 @@ Done:	if (GetLastError() != ERROR_SUCCESS && !(dwMode&LS_LOAD_QUIET)) Request_Pr
 }
 
 
-// «»»» Création de la structure XML ««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» CrÃ©ation de la structure XML Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL lsf_Create(LSFREADER *pReader, LSFILE *pFile)
 {
@@ -107,7 +107,7 @@ BOOL lsf_Create(LSFREADER *pReader, LSFILE *pFile)
 		return(FALSE);
 		}
 
-	//--- Création des balises de base ---
+	//--- CrÃ©ation des balises de base ---
 
 	pReader->uLastError = 0;
 
@@ -165,7 +165,7 @@ BOOL lsf_Create(LSFREADER *pReader, LSFILE *pFile)
 			}
 		}
 
-	//--- Création des autres balises ---
+	//--- CrÃ©ation des autres balises ---
 
 	pReader->uIndex = 0;
 
@@ -177,7 +177,7 @@ BOOL lsf_Create(LSFREADER *pReader, LSFILE *pFile)
 	return(TRUE);
 }
 
-//--- Création d'un noeud ---
+//--- CrÃ©ation d'un noeud ---
 
 BOOL lsf_CreateNode(LSFREADER *pReader, UINT uParentIndex, XML_NODE *pxnParent, NODE *pRoot)
 {
@@ -405,7 +405,7 @@ WCHAR* lsf_ReadAttribute(UINT uTypeId, void *pValue, UINT uLength, UINT *uError)
 }
 
 
-// «»»» Récupère les données XML ««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» RÃ©cupÃ¨re les donnÃ©es XML Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL lsf_UnpackList(LSFREADER *pReader, DWORD dwSizeOnDisk, DWORD dwUncompressedSize, DWORD dwType)
 {
@@ -689,7 +689,7 @@ Done:	if (pData) HeapFree(App.hHeap,0,pData);
 }
 
 
-// «»»» Libère la mémoire utilisée ««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» LibÃ¨re la mÃ©moire utilisÃ©e Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 //--- Noms ---
 

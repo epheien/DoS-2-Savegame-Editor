@@ -5,11 +5,11 @@
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "Application.h"
 #include "Locale.h"
@@ -29,13 +29,13 @@ static DOS2ITEM			RootItem;
 static DOS2ITEM			ParentItem;
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Initialisations							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Initialisations							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Création des éléments «««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» CrÃ©ation des Ã©lÃ©ments Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_CreateLayout()
 {
@@ -109,7 +109,7 @@ int Game_CreateLayout()
 	return(1);
 }
 
-//--- Création d'un bouton ---
+//--- CrÃ©ation d'un bouton ---
 
 int Game_CreateButton(int X, int Y, int W, int H, WCHAR *pszLabel, UINT uCtlId, HWND *hwndPtr, UINT uFlags)
 {
@@ -132,20 +132,20 @@ int Game_CreateButton(int X, int Y, int W, int H, WCHAR *pszLabel, UINT uCtlId, 
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Interactions							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Interactions							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Menu contextuel de l'inventaire «««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Menu contextuel de l'inventaire Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_InventoryMenu(HWND hwndCtrl, UINT uMenuId)
 {
 	DOS2ITEM*	pItem = NULL;
 	DOS2INVENTORY*	pInventory = NULL;
 
-	//--- Récupère l'objet sélectionné ---
+	//--- RÃ©cupÃ¨re l'objet sÃ©lectionnÃ© ---
 
 	if (SendMessage(App.Game.Layout.hwndInventory,LVM_GETSELECTEDCOUNT,0,0))
 		{
@@ -161,7 +161,7 @@ void Game_InventoryMenu(HWND hwndCtrl, UINT uMenuId)
 			}
 		}
 
-	//--- Création et affichage du menu ---
+	//--- CrÃ©ation et affichage du menu ---
 
 	if (!uMenuId)
 		{
@@ -221,7 +221,7 @@ void Game_InventoryMenu(HWND hwndCtrl, UINT uMenuId)
 		Menu_Release(hMenu,InvMenu);
 		}
 
-	//--- Fonctions particulières (DoubleClick) ---
+	//--- Fonctions particuliÃ¨res (DoubleClick) ---
 
 	else if (uMenuId == -1)
 		{
@@ -333,13 +333,13 @@ void Game_InventoryMenu(HWND hwndCtrl, UINT uMenuId)
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Gestion des personnages						  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Gestion des personnages						  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Réinitialisation des données relatives au jeu «««««««««««««««««««»
+// Â«Â»Â»Â» RÃ©initialisation des donnÃ©es relatives au jeu Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 // If bStateOnly is TRUE, pdcList is ignored
 
@@ -383,7 +383,7 @@ void Game_Setup(DOS2CHARACTER *pdcList, BOOL bStateOnly, BOOL bState)
 }
 
 
-// «»»» Création de la liste des personnages ««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» CrÃ©ation de la liste des personnages Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Game_BuildPlayers()
 {
@@ -400,12 +400,12 @@ int Game_BuildPlayers()
 
 	for (; pxnList != NULL; pxnList = (XML_NODE *)pxnList->node.next)
 		{
-		//--- Vérifications ---
+		//--- VÃ©rifications ---
 
 		// Ignore les personnages vides (ne devrait pas se produire)
 		if (!pxnList->children.next) continue;
 
-		// Vérifie qu'il s'agit bien d'un personnage (node[id="Character"])
+		// VÃ©rifie qu'il s'agit bien d'un personnage (node[id="Character"])
 		pszValue = xml_GetAttrValue(pxnList,szXMLid);
 		if (wcscmp(pszValue,szXMLCharacter)) continue;
 
@@ -419,7 +419,7 @@ int Game_BuildPlayers()
 		pszValue = xml_GetAttrValue(pxnTemp,szXMLvalue);
 		if (wcscmp(pszValue,L"True")) continue;
 
-		//--- Création du personnage ---
+		//--- CrÃ©ation du personnage ---
 
 		pdc = HeapAlloc(App.hHeap,HEAP_ZERO_MEMORY,sizeof(DOS2CHARACTER));
 		if (!pdc)
@@ -435,7 +435,7 @@ int Game_BuildPlayers()
 		pdc->pxaDamageCount = xml_GetXMLValueAttr((XML_NODE *)pxnList->children.next,szXMLattribute,szXMLid,L"DamageCounter");
 		pdc->pxaHealCount = xml_GetXMLValueAttr((XML_NODE *)pxnList->children.next,szXMLattribute,szXMLid,L"HealCounter");
 		pdc->pxaKillCount = xml_GetXMLValueAttr((XML_NODE *)pxnList->children.next,szXMLattribute,szXMLid,L"KillCounter");
-		// Informations générales
+		// Informations gÃ©nÃ©rales
 		pxnTemp = xml_GetNodeFromPathFirstChild((XML_NODE *)pxnList->children.next,szCharacterCustomDataPath);
 		if (pxnTemp)
 			{
@@ -458,7 +458,7 @@ int Game_BuildPlayers()
 			pdc->pxaPoints[2] = xml_GetXMLValueAttr(pxnTemp,szXMLattribute,szXMLid,L"CivilAbilityPoints");
 			pdc->pxaPoints[3] = xml_GetXMLValueAttr(pxnTemp,szXMLattribute,szXMLid,L"TalentPoints");
 			}
-		// Points dépensés
+		// Points dÃ©pensÃ©s
 		pxnTemp = xml_GetNodeFromPathFirstChild((XML_NODE *)pxnList->children.next,szCharacterPointsPath);
 		if (pxnTemp)
 			{
@@ -487,7 +487,7 @@ int Game_BuildPlayers()
 		// Tags
 		pdc->pxaTags = xml_GetNodeFromPathFirstChild((XML_NODE *)pxnList->children.next,szCharacterTagsPath);
 
-		//--- Création de l'inventaire du personnage ---
+		//--- CrÃ©ation de l'inventaire du personnage ---
 
 		pInventory = Game_BuildInventory(NULL,NULL,pdc->pxaInventoryId,&pdc->nodeInventories);
 		if (!pInventory)
@@ -505,7 +505,7 @@ int Game_BuildPlayers()
 }
 
 
-// «»»» Libération de la liste des personnages ««««««««««««««««««««««««««»
+// Â«Â»Â»Â» LibÃ©ration de la liste des personnages Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_ReleasePlayers()
 {
@@ -537,7 +537,7 @@ void Game_ReleasePlayers()
 }
 
 
-// «»»» Création d'un inventaire ««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» CrÃ©ation d'un inventaire Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 DOS2INVENTORY* Game_BuildInventory(XML_ATTR *pxaParentName, XML_ATTR *pxaParentDisplayName, XML_ATTR *pxaInventoryId, NODE *pInventoriesRoot)
 {
@@ -570,16 +570,16 @@ DOS2INVENTORY* Game_BuildInventory(XML_ATTR *pxaParentName, XML_ATTR *pxaParentD
 		{
 		// Ignore les objets vides (ne devrait pas se produire)
 		if (!pxnItem->children.next) continue;
-		// Vérifie qu'il s'agit bien d'un objet (node[id="Item"])
+		// VÃ©rifie qu'il s'agit bien d'un objet (node[id="Item"])
 		pszValue = xml_GetAttrValue(pxnItem,szXMLid);
 		if (wcscmp(pszValue,L"Item")) continue;
-		// Vérifie que l'objet appartient bien au personnage
+		// VÃ©rifie que l'objet appartient bien au personnage
 		pxnTemp = xml_GetNode((XML_NODE *)pxnItem->children.next,szXMLattribute,szXMLid,L"Parent");
 		if (!pxnTemp) continue;
 		pszValue = xml_GetAttrValue(pxnTemp,szXMLvalue);
 		if (wcscmp(pszValue,pxaInventoryId->value)) continue;
 
-		//--- Création de l'objet ---
+		//--- CrÃ©ation de l'objet ---
 
 		pItem = HeapAlloc(App.hHeap,HEAP_ZERO_MEMORY,sizeof(DOS2ITEM));
 		if (!pItem)
@@ -591,7 +591,7 @@ DOS2INVENTORY* Game_BuildInventory(XML_ATTR *pxaParentName, XML_ATTR *pxaParentD
 		pItem->pxnRoot = pxnItem;
 		List_AddEntry((NODE *)pItem,&pInventory->nodeItems);
 
-		// Attributs généraux
+		// Attributs gÃ©nÃ©raux
 		pItem->pxaName = xml_GetXMLValueAttr((XML_NODE *)pxnItem->children.next,szXMLattribute,szXMLid,L"Stats");
 		pItem->pxaAmount = xml_GetXMLValueAttr((XML_NODE *)pxnItem->children.next,szXMLattribute,szXMLid,L"Amount");
 		pItem->pxaIsGenerated = xml_GetXMLValueAttr((XML_NODE *)pxnItem->children.next,szXMLattribute,szXMLid,L"IsGenerated");
@@ -647,7 +647,7 @@ DOS2INVENTORY* Game_BuildInventory(XML_ATTR *pxaParentName, XML_ATTR *pxaParentD
 		if (pxnTemp) pItem->pxnBase = pxnTemp;
 		}
 
-	//--- Terminé ! ---
+	//--- TerminÃ© ! ---
 
 	return(pInventory);
 }
@@ -677,7 +677,7 @@ UINT Game_GetInventoryItemsCount(XML_NODE *pxnItemsList, WCHAR *pszInventoryId)
 }
 
 
-// «»»» Libération d'un inventaire ««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» LibÃ©ration d'un inventaire Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_ReleaseInventory(DOS2INVENTORY *pdiInventory)
 {
@@ -690,7 +690,7 @@ void Game_ReleaseInventory(DOS2INVENTORY *pdiInventory)
 }
 
 
-// «»»» Changement de personnage ««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Changement de personnage Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_CharacterChanged(BOOL bRefresh)
 {
@@ -755,7 +755,7 @@ void Game_CharacterChanged(BOOL bRefresh)
 
 	App.Game.pdcCurrent = pdc;
 
-	//--- Activation des menus et mise-à-jour de l'affichage ---
+	//--- Activation des menus et mise-Ã -jour de l'affichage ---
 
 	InvalidateRect(App.Game.Layout.hwndInventoryName,NULL,FALSE);
 	Game_Lock(GAME_LOCK_ENABLED|GAME_LOCK_TREE);
@@ -812,7 +812,7 @@ int CALLBACK Game_ItemsListSort(LPARAM lParam1, LPARAM lParam2, LPARAM Unused)
 }
 
 
-// «»»» Sauvegarde les données de la liste ««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Sauvegarde les donnÃ©es de la liste Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_SaveTopIndex()
 {
@@ -827,13 +827,13 @@ void Game_SaveTopIndex()
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Sous-Routines							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Sous-Routines							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Verrouille certaines parties du programme «««««««««««««««««««««««»
+// Â«Â»Â»Â» Verrouille certaines parties du programme Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_Lock(DWORD uFlags)
 {
@@ -870,7 +870,7 @@ void Game_Lock(DWORD uFlags)
 }
 
 
-// «»»» Détermine le niveau en fonction de l'exp ««««««««««««««««««««««««»
+// Â«Â»Â»Â» DÃ©termine le niveau en fonction de l'exp Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 UINT Game_GetLevelFromExp(UINT uExperience)
 {
@@ -883,7 +883,7 @@ UINT Game_GetLevelFromExp(UINT uExperience)
 }
 
 
-// «»»» Détermine si un objet est équipé ««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» DÃ©termine si un objet est Ã©quipÃ© Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 BOOL Game_IsItemEquipped(DOS2ITEM *pItem)
 {
@@ -895,7 +895,7 @@ BOOL Game_IsItemEquipped(DOS2ITEM *pItem)
 }
 
 
-// «»»» Copie le nom d'affichage d'un objet «««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie le nom d'affichage d'un objet Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 WCHAR* Game_CopyDisplayName(WCHAR *pszDisplayNameRef)
 {

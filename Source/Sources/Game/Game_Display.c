@@ -5,11 +5,11 @@
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "Application.h"
 #include "Locale.h"
@@ -26,15 +26,15 @@ extern UINT		TextsAttr[];
 extern UINT		TextsPts[];
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Affichage							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Affichage							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Affichage de la liste des personnages «««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage de la liste des personnages Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
-//--- Mesure la hauteur des éléments ---
+//--- Mesure la hauteur des Ã©lÃ©ments ---
 
 void Game_MeasureList(MEASUREITEMSTRUCT *pMeasure)
 {
@@ -44,7 +44,7 @@ void Game_MeasureList(MEASUREITEMSTRUCT *pMeasure)
 	return;
 }
 
-//--- Affichage d'un élément ---
+//--- Affichage d'un Ã©lÃ©ment ---
 
 void Game_DrawList(DRAWITEMSTRUCT *pDraw)
 {
@@ -134,9 +134,9 @@ void Game_DrawList(DRAWITEMSTRUCT *pDraw)
 }
 
 
-// «»»» Affichage de la liste des objets ««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage de la liste des objets Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
-//--- Mesure la hauteur des éléments ---
+//--- Mesure la hauteur des Ã©lÃ©ments ---
 
 void Game_MeasureInventory(MEASUREITEMSTRUCT *pMeasure)
 {
@@ -146,7 +146,7 @@ void Game_MeasureInventory(MEASUREITEMSTRUCT *pMeasure)
 	return;
 }
 
-//--- Affichage d'un élément ---
+//--- Affichage d'un Ã©lÃ©ment ---
 
 void Game_DrawInventory(DRAWITEMSTRUCT *pDraw)
 {
@@ -176,7 +176,7 @@ void Game_DrawInventory(DRAWITEMSTRUCT *pDraw)
 
 	FillRect(pDraw->hDC,&pDraw->rcItem,GetSysColorBrush(COLOR_WINDOW));
 
-	//--- Affichage des entrées de navigation ---
+	//--- Affichage des entrÃ©es de navigation ---
 
 	if (pItem && pItem != (DOS2ITEM *)-1)
 		{
@@ -379,7 +379,7 @@ void Game_DrawInventory(DRAWITEMSTRUCT *pDraw)
 		DrawFocusRect(pDraw->hDC,&pDraw->rcItem);
 		}
 
-	//--- Surlignage si sélectionné ---
+	//--- Surlignage si sÃ©lectionnÃ© ---
 
 	if (pDraw->itemState&ODS_SELECTED)
 		{
@@ -420,7 +420,7 @@ void Game_DrawInventory(DRAWITEMSTRUCT *pDraw)
 }
 
 
-// «»»» Affichage de la fenêtre «««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affichage de la fenÃªtre Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Game_Paint(HWND hWnd, HDC hDC, RECT *rcClient)
 {
@@ -503,7 +503,7 @@ void Game_Paint(HWND hWnd, HDC hDC, RECT *rcClient)
 	for (i = 0; i != 6; i++)
 		Game_PaintValue(hDC,ctx.rcArea.left+24,App.Game.Layout.hwndAttrBtn[i],Locale_GetText(TextsAttr[i]),App.Game.pdcCurrent?App.Game.pdcCurrent->pxaAttributes[i]->value:NULL);
 
-	//--- Points à dépenser
+	//--- Points Ã  dÃ©penser
 
 	for (i = 0; i != 4; i++)
 		Game_PaintValue(hDC,ctx.rcArea.left+24,App.Game.Layout.hwndPointsBtn[i],Locale_GetText(TextsPts[i]),App.Game.pdcCurrent?App.Game.pdcCurrent->pxaPoints[i]->value:NULL);
@@ -662,7 +662,7 @@ void Game_PaintBag(DRAWITEMSTRUCT *pDraw)
 	return;
 }
 
-//--- Affichage de l'icône ---
+//--- Affichage de l'icÃ´ne ---
 
 //!\ Modifie RECT
 

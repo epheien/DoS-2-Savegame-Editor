@@ -1,15 +1,15 @@
 
 //<<>-<>>---------------------------------------------------------------------()
 /*
-	Fichiers récents
+	Fichiers rÃ©cents
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "_Global.h"
 #include "Application.h"
@@ -23,13 +23,13 @@
 extern APPLICATION		App;
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Gestion des listes						  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Gestion des listes						  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Libération de la mémoire utilisée «««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» LibÃ©ration de la mÃ©moire utilisÃ©e Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_ReleaseAll()
 {
@@ -46,7 +46,7 @@ void LastFiles_ReleaseAll()
 	return;
 }
 
-//--- Libération de la mémoire utilisée par un fichier ---
+//--- LibÃ©ration de la mÃ©moire utilisÃ©e par un fichier ---
 
 void LastFiles_Release(LASTFILE *pFile)
 {
@@ -56,7 +56,7 @@ void LastFiles_Release(LASTFILE *pFile)
 }
 
 
-// «»»» Ajoute un fichier «««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Ajoute un fichier Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_Add(WCHAR *pszGame, WCHAR *pszProfile, WCHAR *pszSaveName)
 {
@@ -65,7 +65,7 @@ void LastFiles_Add(WCHAR *pszGame, WCHAR *pszProfile, WCHAR *pszSaveName)
 	UINT		uGameLen = wcslen(pszGame);
 	UINT		uProfileLen = wcslen(pszProfile);
 
-	//--- Vérifie que le fichier n'existe pas déjà dans la liste ---
+	//--- VÃ©rifie que le fichier n'existe pas dÃ©jÃ  dans la liste ---
 
 	for (pFile = (LASTFILE *)App.nodeLastFiles.next; pFile != NULL; pFile = (LASTFILE *)pFile->node.next)
 		{
@@ -97,12 +97,12 @@ void LastFiles_Add(WCHAR *pszGame, WCHAR *pszProfile, WCHAR *pszSaveName)
 	wcscat(pFile->pszPath,L"\\");
 	wcscat(pFile->pszPath,pszSaveName);
 
-	//--- Ajoute l'entrée à la fin ---
+	//--- Ajoute l'entrÃ©e Ã  la fin ---
 
 	List_AddEntry((NODE *)pFile,&App.nodeLastFiles);
 	LastFiles_InsertMenuItem(pFile);
 
-	//--- Supprime la première entrée si la liste est trop longue ---
+	//--- Supprime la premiÃ¨re entrÃ©e si la liste est trop longue ---
 
 	if (List_EntryCount(&App.nodeLastFiles) > LASTFILES_MAX)
 		{
@@ -116,7 +116,7 @@ void LastFiles_Add(WCHAR *pszGame, WCHAR *pszProfile, WCHAR *pszSaveName)
 	return;
 }
 
-//--- Supprime une entrée dans le menu ---
+//--- Supprime une entrÃ©e dans le menu ---
 
 void LastFiles_RemoveMenuItem(LASTFILE *pFile)
 {
@@ -149,7 +149,7 @@ void LastFiles_RemoveMenuItem(LASTFILE *pFile)
 	return;
 }
 
-//--- Ajoute l'entrée dans le menu ---
+//--- Ajoute l'entrÃ©e dans le menu ---
 
 void LastFiles_InsertMenuItem(LASTFILE *pFile)
 {
@@ -188,7 +188,7 @@ void LastFiles_InsertMenuItem(LASTFILE *pFile)
 }
 
 
-// «»»» Ajoute tous les fichiers au menu ««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Ajoute tous les fichiers au menu Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_AppendItems()
 {
@@ -222,7 +222,7 @@ void LastFiles_AppendItems()
 }
 
 
-// «»»» Retire les fichiers obsoletes de la liste «««««««««««««««««««««««»
+// Â«Â»Â»Â» Retire les fichiers obsoletes de la liste Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_RemoveObsolete()
 {
@@ -271,7 +271,7 @@ void LastFiles_RemoveObsolete()
 }
 
 
-// «»»» Retire tous les fichiers de la liste ««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Retire tous les fichiers de la liste Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_RemoveAll()
 {
@@ -289,13 +289,13 @@ void LastFiles_RemoveAll()
 }
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Chargement & Sauvegarde						  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Chargement & Sauvegarde						  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Charge la liste «««««««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Charge la liste Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_LoadList()
 {
@@ -346,7 +346,7 @@ void LastFiles_LoadList()
 
 	} while (--Header.size);
 
-	//--- Terminé ---
+	//--- TerminÃ© ---
 
 Done:	if (hFile != INVALID_HANDLE_VALUE) CloseHandle(hFile);
 	SetLastError(ERROR_SUCCESS);
@@ -354,7 +354,7 @@ Done:	if (hFile != INVALID_HANDLE_VALUE) CloseHandle(hFile);
 }
 
 
-// «»»» Sauvegarde la liste «««««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Sauvegarde la liste Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_SaveList()
 {
@@ -408,7 +408,7 @@ Write_Error:
 }
 
 
-// «»»» Recharge un fichier récent ««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Recharge un fichier rÃ©cent Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void LastFiles_Reload(UINT uId)
 {
@@ -430,7 +430,7 @@ void LastFiles_Reload(UINT uId)
 }
 
 
-// «»»» Sépare un fichier récent en données exploitables ««««««««««««««««»
+// Â«Â»Â»Â» SÃ©pare un fichier rÃ©cent en donnÃ©es exploitables Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int LastFiles_Explode(WCHAR *pszPath, UINT *puGame, WCHAR **pszProfilePtr, WCHAR **pszSaveNamePtr)
 {

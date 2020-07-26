@@ -5,11 +5,11 @@
 									      */
 //()-------------------------------------------------------------------<<>-<>>//
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Données								  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ DonnÃ©es								  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
 #include "Application.h"
 #include "Utils.h"
@@ -18,13 +18,13 @@
 extern APPLICATION	App;
 
 
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤ Fonctions							  ¤¤¤ //
-// ¤¤¤									  ¤¤¤ //
-// ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤ Fonctions							  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤									  Â¤Â¤Â¤ //
+// Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ //
 
-// «»»» Récupération des dates d'un fichier «««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» RÃ©cupÃ©ration des dates d'un fichier Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Misc_GetFileTime(const WCHAR *pszPath, FILETIME *pCreationTime, FILETIME *pLastAccessTime, FILETIME *pLastWriteTime)
 {
@@ -46,7 +46,7 @@ int Misc_GetFileTime(const WCHAR *pszPath, FILETIME *pCreationTime, FILETIME *pL
 }
 
 
-// «»»» Conversion d'un nombre ««««««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Conversion d'un nombre Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 //!\ The function returns NULL in case of error but also when the string does not need to be modified
 
@@ -97,7 +97,7 @@ WCHAR* Misc_FormatNumber(WCHAR *pszText)
 
 
 
-// «»»» Conversion d'un texte XML «««««««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Conversion d'un texte XML Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 UINT Misc_HtmlSpecialCharsDecode(WCHAR *pszCopy, WCHAR *pszText)
 {
@@ -140,7 +140,7 @@ UINT Misc_HtmlSpecialCharsDecode(WCHAR *pszCopy, WCHAR *pszText)
 }
 
 
-// «»»» Convertion d'un texte pour le XML «««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Convertion d'un texte pour le XML Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 // pszCopy may be NULL
 // pszText may be NULL
@@ -225,7 +225,7 @@ UINT Misc_HtmlSpecialChars(WCHAR *pszCopy, WCHAR *pszText)
 }
 
 
-// «»»» Convertion d'un UINT en WCHAR «««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Convertion d'un UINT en WCHAR Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 // pszBuffer can be NULL
 // Returns the size of the buffer NOT including the terminating null character
@@ -260,7 +260,7 @@ UINT Misc_uIntToWCHAR(WCHAR *pszBuffer, UINT uValue)
 }
 
 
-// «»»» Modifie la valeur d'une EDITBOX «««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Modifie la valeur d'une EDITBOX Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 int Misc_SetEditWndInt(HWND hWnd, HWND hwndUpDown, WCHAR *pszInt)
 {
@@ -274,7 +274,7 @@ int Misc_SetEditWndInt(HWND hWnd, HWND hwndUpDown, WCHAR *pszInt)
 }
 
 
-// «»»» Affiche le label d'une EDITBOX ««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Affiche le label d'une EDITBOX Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Misc_DrawLabel(HWND hWnd, HWND hwndUpDown, HDC hDC, WCHAR *pszText, int iLimitX, BOOL bRight)
 {
@@ -309,7 +309,7 @@ void Misc_DrawLabel(HWND hWnd, HWND hwndUpDown, HDC hDC, WCHAR *pszText, int iLi
 }
 
 
-// «»»» Copie une chaîne de caractères ««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Copie une chaÃ®ne de caractÃ¨res Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 WCHAR* Misc_StrCpyAlloc(WCHAR *src)
 {
@@ -323,7 +323,7 @@ WCHAR* Misc_StrCpyAlloc(WCHAR *src)
 }
 
 
-// «»»» Copie "sécurisée" d'une chaîne de caractères ««««««««««««««««««««»
+// Â«Â»Â»Â» Copie "sÃ©curisÃ©e" d'une chaÃ®ne de caractÃ¨res Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Misc_StrCpy(WCHAR *dst, int size, WCHAR *src)
 {
@@ -346,7 +346,7 @@ void Misc_StrCpy(WCHAR *dst, int size, WCHAR *src)
 }
 
 
-// «»»» Ajout "sécurisé" d'une chaîne de caractères «««««««««««««««««««««»
+// Â«Â»Â»Â» Ajout "sÃ©curisÃ©" d'une chaÃ®ne de caractÃ¨res Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Misc_StrCat(WCHAR *dst, int size, WCHAR *src)
 {
@@ -370,7 +370,7 @@ void Misc_StrCat(WCHAR *dst, int size, WCHAR *src)
 }
 
 
-// «»»» Modifie le titre d'une fenêtre ««««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Modifie le titre d'une fenÃªtre Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 void Misc_SetWindowText(HWND hWnd, WCHAR **pszTitlePtr, WCHAR *pszDefault, WCHAR *pszFmt, ...)
 {
@@ -404,7 +404,7 @@ void Misc_SetWindowText(HWND hWnd, WCHAR **pszTitlePtr, WCHAR *pszDefault, WCHAR
 }
 
 
-// «»»» Conversion d'un texte UTF-8 en WCHAR ««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Conversion d'un texte UTF-8 en WCHAR Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 WCHAR* Misc_UTF8ToWideCharNZ(const char *pszText, const int iLen)
 {
@@ -443,7 +443,7 @@ WCHAR* Misc_UTF8ToWideChar(const char *pszText)
 }
 
 
-// «»»» Conversion d'un texte WCHAR en UTF-8 ««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» Conversion d'un texte WCHAR en UTF-8 Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 char* Misc_WideCharToUTF8(const WCHAR *pszText)
 {
@@ -462,7 +462,7 @@ char* Misc_WideCharToUTF8(const WCHAR *pszText)
 }
 
 
-// «»»» Données de debug dans un fichier ««««««««««««««««««««««««««««««««»
+// Â«Â»Â»Â» DonnÃ©es de debug dans un fichier Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â«Â»
 
 #if _DEBUG
 void Misc_DebugOut(const WCHAR *pszFmt, ...)
