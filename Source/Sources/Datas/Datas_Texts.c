@@ -1,4 +1,4 @@
-ï»¿
+﻿
 //<<>-<>>---------------------------------------------------------------------()
 /*
 	Textes fixes
@@ -30,8 +30,8 @@ WCHAR	szLF[]				= L"\n";
 WCHAR	szZero[]			= L"0";
 WCHAR	szSpace[]			= L" ";
 WCHAR	szBlank[]			= L"";
-WCHAR	sSourcePoint			= L'â';
-WCHAR	sActionPoint			= L'â';
+WCHAR	sSourcePoint			= L'◈';
+WCHAR	sActionPoint			= L'●';
 WCHAR	szEdit[]			= L"...";
 
 WCHAR	szPlayerName[]			= L"%1 (%2) (%3)";
@@ -44,7 +44,7 @@ WCHAR	szPlus[]			= L"+";
 WCHAR	szEmpty[]			= L"";
 WCHAR	szBonusSkillFmt[]		= L"%1: %2";
 WCHAR	szBonusPercentFmt[]		= L"%3%2%% %1";
-WCHAR	szBonusDegreesFmt[]		= L"%3%2Â° %1";
+WCHAR	szBonusDegreesFmt[]		= L"%3%2° %1";
 WCHAR	szBonusMetersFmt[]		= L"%3%2m %1";
 WCHAR	szBonusFmt[]			= L"%3%2 %1";
 WCHAR	szBonusDamageTypeFmt[]		= L"%1: %2";
